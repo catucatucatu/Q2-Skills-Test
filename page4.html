@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBMC Enroll Now</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <style>
+        body{
+            background-image: url('https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/0ac7bf3e-e1f0-47e7-b212-e24b8696f03c/O.B.+Montessori+Center+Fairview+Campus');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+
+    <a class="navbar-brand" href=""><img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/e01fd0f1-eda0-443b-ab56-74f748469f01/Header.png?format=1500w" alt="" class="" style="width: 200px;"></a>
+    <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="page2.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="page3.html">About Us</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="page4.html">Enroll</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="page5.html">Contact Us</a>
+        </li>
+
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<br><br>
+
+<div class="row justify-content-center">
+  <img  src="OBMC LOGO.png" class=".mx-auto d-block" style="width: 150px;">
+  </div>
+  <br>
+
+  <div class="container bg-light text-dark">
+    <p class="fw-bold display-4 text-center">Student Enrollment Form</p>
+  </div>
+  <br>
+    
+    <div class="container bg-light text-dark">
+    <div class="row">
+
+    <blockquote>
+        <form action="#">
+          <br>
+          <div class="col">
+        <div class="form-label">Name:</div>
+		      <input class="form-control" type="text" id="name" name="name" placeholder="Surname, First name(s), Middle Initial." required>
+          </div>
+        </div>
+        
+          <div class="row">
+          <div class="col-4">
+        <div class="form-label">Birthday:</div>
+          <input class="form-control" type="date" id="birthday" name="birthday" required>
+		    <br>
+
+        <div class="form-label">Gender:</div>
+
+        <select class="form-select" id="gender" name="gender" required>
+          <option value="none">Select</option>
+          <option value="m">Male</option>
+          <option value="f">Female</option>
+          <option value="tf">Transexual Female</option>
+          <option value="tm">Transexual Male</option>
+          <option value="o">Other</option>
+        </select>
+        <br>
+
+        <div class="form-label">Grade Level:</div>
+
+        <select class="form-select" id="gradelevel" name="gradelevel" required>
+          <option value="none">Select</option>
+          <option value="c">Casa</option>
+          <option value="1">Grade 1</option>
+          <option value="2">Grade 2</option>
+          <option value="3">Grade 3</option>
+          <option value="4">Grade 4</option>
+          <option value="5">Grade 5</option>
+          <option value="6">Grade 6</option>
+          <option value="7">Grade 7</option>
+          <option value="8">Grade 8</option>
+          <option value="9">Grade 9</option>
+          <option value="10">Grade 10</option>
+          <option value="11">Grade 11</option>
+          <option value="12">Grade 12</option>
+        </select>
+          </div>
+          </div>
+
+          <div class="col">
+            <br>
+            <div class="form-label">Email:</div>
+
+              <input class="form-control" type="email" id="email" name="email" placeholder="abcdefghijk@gmail.com" required>
+              </div>
+              <br>
+            <div class="col">
+              <div class="form-label">Contact Number:</div>
+              
+              <input class="form-control" type="number" id="number" name="number" placeholder="0987-6543-210" required>
+            </div>
+
+            </div>
+          </div>
+          
+
+        </form>
+    </blockquote>
+    </div>
+</body>
+</html>
